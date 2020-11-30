@@ -1,0 +1,9 @@
+gcc -S helloWald.c  
+
+-S for assmbly language
+
+returns AT&T syntax
+
+gcc -S -o my_asm_output.s hellowald.c -masm=intel
+
+-masm = intel for intel based syntax ... 
